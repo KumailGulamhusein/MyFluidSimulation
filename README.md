@@ -1,15 +1,65 @@
 # MyFluidSimulation
- 
-Created a real-time 3D fluid simulation in Unity using the Smooth Particle Hydrodynamics (SPH) method.
 
-![image](https://user-images.githubusercontent.com/61838026/226582604-5601e4d7-5c0f-4aaa-a572-dd695c08d6ff.png)
+**Overview**
 
-## Unity Profiler
-Used Unity profiler to measure efficiency of the algorithm.
+MyFluidSimulation is a small Unity project demonstrating a particle-based fluid simulation. It includes particle management, simple physics interactions, and visualizations suitable for learning and experimentation.
 
-![image](https://user-images.githubusercontent.com/61838026/226659996-28c2f554-bd8f-4f46-97ed-032c022beeb6.png)
+**Features**
 
-### Video Links
-https://www.youtube.com/watch?v=3zXecs_evS4
+- **Real-time particle simulation:** Efficient particle updates and rendering.
+- **Modular scripts:** Core logic lives in `Assets/Scripts/ParticleManager.cs` and related scripts.
+- **Configurable parameters:** Tweak particle count, forces, and rendering options in the Unity Inspector.
 
-https://www.youtube.com/watch?v=LfoeKTEu-JQ
+**Requirements**
+
+- Unity 2020.3 LTS or newer (recommended). Adjust if you use a different version.
+- Desktop GPU recommended for larger particle counts.
+
+**Quick Start**
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/your-username/MyFluidSimulation.git
+cd MyFluidSimulation
+```
+
+2. Open the project in Unity Hub and select the cloned folder.
+3. Open the `SampleScene` (or the scene in `Assets/Scenes`) and press Play.
+
+**Running & Controls**
+
+- Use the Unity Editor Play button to run the simulation.
+- Adjust particle parameters on the `ParticleManager` component in the Inspector.
+
+**Media (Videos & Screenshots)**
+
+Video demos and screenshots are intentionally left as placeholders — replace the URLs and images with your final assets.
+
+Video links:
+
+- Demo 1: https://www.youtube.com/watch?v=3zXecs_evS4
+- Demo 2: https://www.youtube.com/watch?v=LfoeKTEu-JQ
+
+Screenshots (place image files in `Assets/ReadmeImages/` and keep names as below):
+
+![Screenshot 1](Assets/ReadmeImages/screenshot1.png)
+![Screenshot 2](Assets/ReadmeImages/screenshot2.png)
+
+How to add your media:
+
+- Videos: paste your public video URLs (YouTube/Vimeo) in place of `<VIDEO_URL_1>` and `<VIDEO_URL_2>` above.
+- Images: create a folder `Assets/ReadmeImages/` in the project and add `screenshot1.png`, `screenshot2.png` etc. The README already references those files so they will display on GitHub once present.
+
+**Project Structure (important files)**
+
+- `Assets/Scripts/ParticleManager.cs` — core particle simulation and manager.
+- `Assets/Scenes/` — scenes to run/demo the simulation.
+- `Assets/ReadmeImages/` — recommended location for README images (create this folder and add images).
+
+**Configuration Tips**
+
+- Start with a low particle count to test performance, then increase while profiling.
+- Use the Inspector sliders on `ParticleManager` to adjust viscosity, particle size, and forces.
+
+
