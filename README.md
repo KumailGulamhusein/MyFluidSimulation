@@ -46,16 +46,10 @@ Screenshots (place image files in `Assets/ReadmeImages/` and keep names as below
 ![Screenshot 1](Assets/ReadmeImages/screenshot1.png)
 ![Screenshot 2](Assets/ReadmeImages/screenshot2.png)
 
-How to add your media:
-
-- Videos: paste your public video URLs (YouTube/Vimeo) in place of `<VIDEO_URL_1>` and `<VIDEO_URL_2>` above.
-- Images: create a folder `Assets/ReadmeImages/` in the project and add `screenshot1.png`, `screenshot2.png` etc. The README already references those files so they will display on GitHub once present.
-
 **Project Structure (important files)**
 
 - `Assets/Scripts/ParticleManager.cs` — core particle simulation and manager.
 - `Assets/Scenes/` — scenes to run/demo the simulation.
-- `Assets/ReadmeImages/` — recommended location for README images (create this folder and add images).
 
 **Configuration Tips**
 
