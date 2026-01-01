@@ -41,7 +41,7 @@ Video links:
 - Demo 1: https://www.youtube.com/watch?v=3zXecs_evS4
 - Demo 2: https://www.youtube.com/watch?v=LfoeKTEu-JQ
 
-Screenshots (place image files in `Assets/ReadmeImages/` and keep names as below):
+Screenshots:
 
 ![Screenshot 1](Assets/ReadmeImages/screenshot1.png)
 ![Screenshot 2](Assets/ReadmeImages/screenshot2.png)
