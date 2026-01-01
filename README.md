@@ -13,7 +13,7 @@ MyFluidSimulation is a small Unity project demonstrating a particle-based fluid 
 **Requirements**
 
 - Unity 2020.3 LTS or newer (recommended). Adjust if you use a different version.
-- Desktop GPU recommended for larger particle counts.
+- Strong CPU recommended for larger particle counts.
 
 **Quick Start**
 
